@@ -18,26 +18,64 @@
 
 </head>
 <!-- <i class="fa-solid fa-play"></i> -->
+
 <body>
     <header>
         <div class="logo-box">
             <button><i class="fa-solid fa-bars"></i></button>
-            <p class="logo"> <img src="./media/logo.png" alt="this is logo icon">  <span>Shorts</span></p>
+            <p class="logo"> <img src="./media/logo.png" alt="this is logo icon"> <span>Shorts</span> <sup>Tube</sup>
+            </p>
         </div>
-        <div class="seach-box">
+        <div class="search-box">
             <div class="input-box">
-                <input type="text" placeholder="Search here">
+                <input type="text" placeholder="Search here" id="search-input">
                 <button><i class="fa-solid fa-xmark"></i></button>
             </div>
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            <button><i class="fa-solid fa-microphone"></i></button>
+            <div class="features-box">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button><i class="fa-solid fa-microphone"></i></button>
+            </div>
         </div>
         <div class="features-box">
             <button><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
             <button><i class="fa-solid fa-bell"></i></button>
-            <button><i class="fa-solid fa-circle-user"></i></button>
+            <button id="user">R</button>
         </div>
     </header>
+
+    <!-- sidebar  -->
+    <div class="sidebar">
+        <ul>
+            <li> <i class="fa-solid fa-house"></i> Home</li>
+            <li> <i class="fa-solid fa-play"></i> Shorts</li>
+            <li> <i class="fa-solid fa-square-check"></i> Subscriptions</li>
+            <div class="line"></div>
+        </ul>
+
+        <ul>
+            <li>You <i class="fa-solid fa-angle-right"></i></li>
+
+            <li><i class="fa-solid fa-user-check"></i> Your Channel</li>
+            <li><i class="fa-solid fa-clock-rotate-left"></i> History</li>
+            <li> <i class="fa-brands fa-youtube"></i> Your Videos</li>
+            <li> <i class="fa-solid fa-clock"></i> Watch Later</li>
+            <li><i class="fa-solid fa-chevron-down"></i> Show More</li>
+            <div class="line"></div>
+        </ul>
+
+        <ul>
+            <li>Subscriptions</li>
+            <li><span class="chnl"></span> <span>Motivation Quotes</span></li>
+            <li><span class="chnl"></span> <span>Chai Aur Code</span></li>
+            <li><span class="chnl"></span> <span>Code Step By Step</span></li>
+            <li><span class="chnl"></span> <span>Code With Harry</span></li>
+            <li><span class="chnl"></span> <span>6 Pack Programmer</span></li>
+            <li><span class="chnl"></span> <span>Coding Monk</span></li>
+        </ul>
+    </div>
+
+    <!-- javascript file linked here -->
+    <script src="script.js"></script>
 </body>
 
 </html>
